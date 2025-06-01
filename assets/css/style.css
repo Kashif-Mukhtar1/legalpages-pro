@@ -1,0 +1,4 @@
+/* Prevent horizontal scroll on frontend */
+body {
+  overflow-x: hidden;
+}

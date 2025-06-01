@@ -1,0 +1,91 @@
+.legalpages-container {
+    font-family: "Segoe UI", sans-serif;
+    max-width: 900px;
+}
+.legalpages-container h1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.legalpages-container h2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.3em;
+    margin-top: 2em;
+}
+.legalpages-settings-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 20px;
+    align-items: end;
+}
+.legalpages-settings-grid p,
+.legalpages-settings-grid label {
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1.2;
+    font-weight: 600;
+    font-size: 14px;
+}
+.legalpages-settings-grid input[type="text"],
+.legalpages-settings-grid input[type="email"] {
+    width: 100%;
+    padding: 6px 10px !important;
+    margin-top: 4px !important;
+    height: 34px !important;
+    font-size: 14px;
+}
+.legalpages-grid-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.legal-card-option {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: #f7f7f7;
+    padding: 12px 16px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+.legal-card-option:hover {
+    background-color: #f0f0f0;
+}
+.legal-card-option input[type="checkbox"] {
+    transform: scale(1.2);
+    margin: 0;
+}
+
+/* ✅ Updated "Save Info" button — Blue & styled */
+.legalpages-container input[type="submit"] {
+    padding: 10px 22px;
+    font-size: 16px;
+    margin-top: 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #0073aa;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.legalpages-container input[type="submit"]:hover {
+    background-color: #005d8c;
+    transform: translateY(-1px);
+}
+
+/* ✅ Styled big green animated Generate button */
+.legalpages-container .button-primary {
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.legalpages-container .button-primary:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
